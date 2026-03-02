@@ -1,3 +1,15 @@
 # CS300_collab
 
 This repo serves as a storage location for coursework from CS300
+
+Reflection:
+
+In this course, the main problem I was solving was how to efficiently store, organize, sort, and retrieve course data for a Computer Science program. In Project One, I analyzed the run-time and memory usage of different data structures to determine which would be most appropriate for managing course information. In Project Two, I implemented a working program that loads course data, sorts it in alphanumeric order, and prints it in a structured format. Together, the projects focused on applying theoretical data structure knowledge to a practical software design problem.
+
+My approach to the problem was grounded in understanding trade-offs. Instead of just writing code that “worked,” I had to think about why one structure would be better than another. For example, comparing vectors, hash tables, and binary search trees required analyzing time complexity for insertion, lookup, and sorting. That process reinforced why data structures are so important: they directly affect scalability, performance, and memory usage. A solution that works fine for 20 items may completely break down for 20,000 if the underlying structure is inefficient.
+
+One of the biggest roadblocks I encountered was thinking through runtime analysis in a concrete way rather than just memorizing Big-O notation. It’s easy to say something is O(n log n), but it’s more challenging to explain why. I overcame this by walking step-by-step through how the data flows through each structure and considering worst-case scenarios. Breaking problems into smaller parts and reasoning about what happens during each operation made the analysis clearer. On the implementation side, debugging logic errors in sorting and traversal required patience and careful testing, especially making sure prerequisites and alphanumeric ordering were handled correctly.
+
+This project expanded how I think about software design. Before this course, I tended to focus mostly on whether code produced the correct output. Now I think more about structural decisions upfront. Choosing the right data structure early simplifies everything that comes after it. I also gained a better appreciation for separating responsibilities within a program—data loading, storage, sorting, and output formatting should not all be tangled together. Designing with structure in mind makes programs easier to reason about.
+
+My approach to writing maintainable and adaptable code has also evolved. I am more intentional about clarity in naming, modular function design, and minimizing redundant logic. I think more about how someone else (or future me) would read the code months later. Using clear abstractions and organizing logic cleanly makes changes easier to implement without breaking existing functionality. Overall, this course strengthened my ability to connect algorithmic theory to real-world programming decisions, which feels like a meaningful step forward in becoming a stronger developer.
